@@ -1,4 +1,8 @@
 NOTES:
+* Boslaugh is a good overview of probability.
+* Freedman puts the subject together in a good narative.
+* Peebles is the most exhaustive resource for mathematical theory and dives deeply into set theory.
+* Spiegel is the most extensive resource for exercises.
 
 REFERENCES:
 1. Boslaugh, Sarah. "2 Probability." In _Statistics In a Nutshell, 2nd ed_. Sebastopol: OReilly, 2013.
