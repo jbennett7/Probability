@@ -1,0 +1,114 @@
+REFERENCE:
+Boslaugh, Sarah. "2 Probability." In _Statistics In a Nutshell, 2nd ed_. Sebastopol: OReilly, 2013.
+
+GENERAL:
+pages: 21-43
+
+OUTLINE:
+I.   Basic Definitions - p. 23-29
+  A. Trials - p. 23
+     i.   Probability is concerned with the outcome of trials, experiments or observations (p. 23)
+     ii.  These terms are often interchangeable (p. 23)
+     iii. _Boslaugh_ distinguishes between a trial (for a single observations such as one coin flip) and an experiment (multiple trials, such as the results from flipping a coin five times) (p. 23)
+  B. Sample Space - p. 23-24
+     i.   The sample space, S, is the set of all possible outcomes of a trial (p. 23)
+     ii.  If you flip a coin, the sample space is {h,t}
+     iii. If you roll a six-faced die, the sample space is {1, 2, 3, 4, 5, 6} (p. 23)
+     iv.  An experiment that consists of multple trials must include all possible outcomes of the multiple trials
+       - For example flipping a coin twice and observing the outcomes has a sample space of S = {(h,h), (h,t), (t,h), (t,t)} (p. 24)
+  C. Events - p. 24
+    i.   An event, denoted by any capital letter other than S (such as E), is a specific outcome, or set of outcomes, we want to observe during a trial (p. 24)
+    ii.  event examples (p. 24):
+      Coin flip:
+      - E = {heads} = {h}
+      Die cast:
+      - E = {odd number} = {1, 3, 5}
+    iii. simple event is the outcome of a single experiment or observation (p. 24)
+    iv.  compound event is the combination of simple events (p. 24)
+  D. Venn Diagrams - p. 24
+    i. A Venn diagram is a useful tool to graphically display the probability of events and combinations of events (p. 24)
+    ii. [Venn Diagram Example](./VennDiagramExample.png)
+  E. Union - p. 24
+    i.   The union of several simple events creates a compound event that occurs if one or more of the events occur (p.24)
+    ii.  The symbolism of union of event E and F is written E u F (p. 24)
+    iii. Means "either E or F or both" (p. 24)
+  F. Intersection - p. 25
+    i.   The intersection of two or more simple events creates a compound event that occurs only if all the simple events occur (p. 25)
+    ii.  The symbolism of the intersection of event E and F is written E n F (p. 25)
+    iii. Means "both E and F" (p. 25)
+  G. Complement - p. 25 - 26
+    i.   The complement of an event is everything in the sample space that is not that event (p. 25)
+    ii.  The symbolism of the complement of event E is written ~E, E^c, or \bar{E} (p.25)
+    iii. Means "not E" (p. 25)
+  H. Mutual Exclusvity - p. 26
+    i.   If events cannot occur together they are mutually exclusive (p. 26)
+    ii.  If two sets have nothing in commmon they are mutually exclusive (p. 26)
+  I. Independence - p. 27
+    i.   If two trials are independent, the outcome of one trial does not influence the outcome of another (p. 27)
+    ii.  Knowing the outcome of one trial gives you no information about the outcome of another trial (p. 27)
+  J. Permutations - p. 27
+    i.   In probability theory, permutations are all the possible ways elements in a set can be arranged (p. 27)
+    ii.  Permutations are calculated by using factorials, x!, which is the notation for the following calculation: x_n * x_{n-1} * ... * x_1 = x! (p. 27)
+    iii. Example: 3! = 3 * 2 * 1 = 6
+    iv.  Formula for calculating a permutation $nPk = \frac{n!}{(n - k)!}$ (p. 28)
+  K. Scientific Notation - p. 28
+  L. Combinations - p. 28 - 29
+    i.   Combinations are similar to permutations except that the order of the elements is not significant (p. 28)
+    ii.  (a, b, c) is the same combination as (b, a, c) (p. 28)
+    iii. Formula for calculating a combination $nCk = \frac{n!}{k!(n - k)!} = \frac{nPk}{k!}$ (p. 29)
+II.  Defining Probability - p. 30 - 34
+    i.   A definition useful for statistics is that probability tells us how often something is likely to occur when an experiment is repeated (p. 30)
+    ii.  The probability of an event is always between 0 and 1 (p. 30)
+    iii. The probability of the sample space is always 1 (p. 30)
+    iv.  The probability of an event and its complement is always 1 (p. 30)
+  A. Expressing the Probability of an Event - p. 31
+    i.   The probability of event E is 0.5 is written as $P(E) = 0.5$ (p. 31)
+    ii.  The probability of an event is always $0 \le P(E) \le 1$ (p. 31)
+    iii. The probability of the sample space is always $P(S) = 1$ (p. 31)
+    iv.  The probability of an event and its complement is always $P(E) + P(~E) = 1$ (p. 31)
+    v.   Observe that $P(~E) = 1 - P(E)$ (p. 31)
+    vi.  Example of a complement $P(E) = 0.4 \rightarrow  P(~E) = 1 - P(E) = 0.6$
+  B. Conditional Probabilities - p. 31 - 32
+    i.   $P(E|F)$, the probability of event E given event F (p. 31)
+    ii.  The second event (F) is known as the condition, and is sometimes referred to as "conditioning on F" (p. 31)
+    iii. Conditional probabilities establish that a factor has a relationship with an outcome (p. 31)
+    iv.  Another way of saying this is that an outcome differs depending on the presence or absence of the factor (p. 31)
+    v.   Conditional probabilities are also used to define independence (p. 32)
+    vi.  Two variables are independent if  the following relationship holds: $P(E|F) = P(E)$ (p. 32)
+  C. Calculating the Probability of Multiple Events - p. 32 - 33
+    i.   To calculate the probability of several events occurring (the union of several event) depends on whether or not the events are mutually exclusive (p. 32)
+    1. Union of mutually exclusive events - p. 32
+      i.   If the events are mutually exclusive, then the equation is simply $P(E \cup F) = P(E) + P(F)$
+    2. Union of events that are not mutually exclusive - p. 32 - 33
+      ii.  If the events are not mutually exclusive then you must subtract the intersection of the events: $P(E \cup F) = P(E) + P(F) - P(E \cap F)$ (p. 32)
+    3. Intersection of independent events - p. 33
+      i.   Calculating the probability of all of several events occurring (the intersection of several events), will depend on whether or not the events are independent (p. 33)
+      ii.  If two events E and F are independent, the probability of both E and F occurring is calculated as simply: $P(E \cap F) = P(E) \times P(F)$
+    4. Intersection of nonindependent events - p. 33 - 34
+      i. If the two events E and F are not independent, then you have to know their conditional probability and the formula is: $P(E \cap F) = P(E) \times P(F|E)$
+III. Bayes' Theorem - p. 34 - 36
+    i.   Bayes' theorem is the most common application of conditional probabilities (p. 34)
+    ii.  A typical use  of Bayes' theorem in the medical field is to calculate the prbability that a person who tests positive on a screening test for a particular disease actually has the disease (p. 34)
+    iii. The formula $P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{P(B|A)P(A)}{P(B|A)P(A) + P(B|~A)P(~A)}$ (p. 34)
+    iv.  You would use this formula if you know $P(A)$, $P(B)$, and $P(B|A)$ but want to know $P(A|B)$ (p. 34)
+    v.   If a screening test for a disease is 95% effective in detecting disease in those who have the disease and 99% effective in not falsely diagnosing disease in those who are free of it. Clinicians would say that this test has 95% sensitivity and 99% specificity. Suppose also that the rate of disease in the population is 1%.  We can state the probabilities as such
+         Sensitivity = $P(T|D) = 0.95$
+         Specificity = $P(~T|~D) = 0.99$
+         Probability of the disease in the population = $P(D) = 0.01$
+         To calulate the probability of having the disease given that you test positive $P(D|T) = \frac{P(T|D)P(D)}{P(T|D)P(D) + P(T|~D)P(~D)} = \frac{(0.95)(0.01)}{[(0.95)(0.01)+(0.01)(0.99)]} = 0.4897$ (p. 34 - 35)
+  A. The Reverend Thomas Bayes - p. 36
+IV.  Enough Exposition, Let's Do Some Statistics! - p. 36 - 38
+    i.   Procedure to solving problems in elementary probability
+        1.  Define the trial, experiment, or both
+        2.  Define the sample space
+        3.  Define the event
+        4.  Specify the relevant probabilities, and do the calculations
+  A. Dice, Coins, and Playing Cards - p. 37 - 38
+    1. Dice - p. 37
+      i.   S = {1, 2, 3, 4, 5, 6} (p. 37)
+    2. Coins - p. 37
+      i.   S = {h, t} (p. 37)
+    3. Playing cards - p. 37 - 38
+V.   Exercises - p. 38 - 43
+  A. Problems - p. 38 - 42
+  B. Closing Note: The Connection between Statistics and Gambling - p. 42 - 43
