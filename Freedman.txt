@@ -1,0 +1,33 @@
+REFERENCE:
+Freedman, David, Robert Pisani, and Roger Purves. "Part IV. Probability." In _Statistics, 4th ed_. New York: W. W. Norton & Company, Inc., 2007.
+
+GENERAL:
+pages: 221 - 269
+
+NOTES:
+
+OUTLINE:
+Chapter 13. What Are the Chances?
+I.   Introduction
+II.  Conditional Probabilities
+III. The Multiplication Rule
+IV.  Independence
+V.   Collins Case
+VI.  Review Exercises
+VII. Summary
+
+Chapter 14. More about Chance
+I.   Listing the Ways
+II.  The Addition Rule
+III. Two FAQs (Frequently Asked Questions)
+IV.  The Paradox of the Chevalier De Mere
+V.   Are Real Dice Fair?
+VI.  Review Exercises
+VII. Summary
+
+Chapter 15. The Binomial Formula
+I.   Introduction
+II.  The Binomial Formula
+III. Review Exercises
+IV.  Special Review Exercises
+V.   Summary and Overview
