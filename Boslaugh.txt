@@ -4,6 +4,10 @@ Boslaugh, Sarah. "2 Probability." In _Statistics In a Nutshell, 2nd ed_. Sebasto
 GENERAL:
 pages: 21-43
 
+NOTES:
+* This reference has good definitions of the common concepts of elementary probability theory.
+* In the section "Enough Exposition, Let's DO Some Statistics!" (p. 36 - 37), it has a good procedure for solving probability problems.
+
 OUTLINE:
 I.   Basic Definitions - p. 23-29
   A. Trials - p. 23
