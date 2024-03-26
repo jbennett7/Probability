@@ -9,18 +9,40 @@ NOTES:
 OUTLINE:
 Chapter 13. What Are the Chances?
 I.   Introduction
+  i.   The chance of something gives the percentage of time it is expected to happen, when the basic process is done over and over again, independently and under the same conditions (p. 222)
+  ii.  Chances are between 0% and 100% (p. 223)
+  iii. The chance of something equals 100% minus the chance of opposite thing (p. 223)
+  iv.  Many of the problems considered are of the form of drawing at random from a box. There are two types of draws: (p. 225)
+    1. with replacement
+    2. without replacement
+  v.   When you draw at random, all the tickets in the box have the same chance to be picked (p. 225)
 II.  Conditional Probabilities
+  i.   I don't like how this book presents conditional probabilities here. It does not define it just gives bad examples (p. 226)
 III. The Multiplication Rule
+  i.   The chance that two things will both happen equals the chance that the first will happen, multiplied by the chance that the second will happen given the first has happened (p. 229)
 IV.  Independence
+  i.   Two things are independent if the chances for the second given the first are the same, no matter how the first one turns out. Otherwise, the two things are dependent (p. 230)
+  ii.  When drawing at random with replacement, the draws are independent. Without replacement, the draws are dependent (p. 231)
+  iii. If two things are independent, the chance that both will happen equals the product of their unconditional probabilities. This is a special case of the multiplication rule (p. 232)
 V.   Collins Case
+  i.   This is a court case that explains the importance of checking for independence, or use conditional probabilities (p. 234)
 VI.  Review Exercises
 VII. Summary
 
 Chapter 14. More about Chance
 I.   Listing the Ways
+  i.   It is important to list all of the different ways (the sample space) (p. 239)
 II.  The Addition Rule
+  i.   Two things are mutually exclusive when the occurrence of one prevents the occurrence of the other: one excludes the other (p. 241)
+  ii.  To find the chance that at least one of two things will happe, check to see if they are mutually exclusive. If they are, add the chances (p. p 241)
+  iii. If you want to find the chance that at least one event occurs, and the events are not mutually exclusive, do not add the chances: the sum will be too big (p. 242)
 III. Two FAQs (Frequently Asked Questions)
+  i.   Two events are mutually exclusive if the occurrence of one prevents the other from happening (p. 243)
+  ii.  Two events are independent if the occurrence of one does not change the chances for the other (p. 243)
+  iii. The addition rule finds the chance that at least one of two things happens (p. 244)
+  iv.  The multiplication rule finds the chance that two things both happen (p. 244)
 IV.  The Paradox of the Chevalier De Mere
+  i. If the chance of an event is hard to find, try to find the chance of the opposite event. Then subtract from 100%. This is useful when the chance of the opposite event is easier to compute (p. 250)
 V.   Are Real Dice Fair?
 VI.  Review Exercises
 VII. Summary
@@ -28,6 +50,11 @@ VII. Summary
 Chapter 15. The Binomial Formula
 I.   Introduction
 II.  The Binomial Formula
+  i.   The chance that an event will occur exactly $k$ times out of $n$ times is given by the binomial formula $$\frac{n!}{k!(n-k)!}p^k(1 - p)^{n-k}$$. In this formula, $n$ is the number of trails, $k$ is the number of times the event is to occur, and $p$ is the probability that the event will occur on any particular trial (p. 259)
+  ii.  The asumptions: The value of $n$ must by fixed in advance, $p$ must be the same from trial to trial, and the trials must be independent (p. 259)
+  iii. The binomial coefficient $$\frac{n!}{k!(n-k)!}$$ (p. 259)
+  iv.  The binomial coefficient is usually written as $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$ (p. 260)
+  v.   $\binom{n}{k} is read as: "n choose k." (p. 261)
 III. Review Exercises
 IV.  Special Review Exercises
 V.   Summary and Overview
