@@ -1,0 +1,42 @@
+REFERENCE:
+Peebles, Peyton Z. Jr. "Chapter 1 Probability." In _Probability, Random Variables, and Random Signal Principles_. 4th ed. New York: McGraw-Hill Inc. 2001.
+
+GENERAL:
+p. 1 - 40
+
+NOTES:
+
+OUTLINE:
+I.   Introduction
+II.  Set Definitions
+III. Set Operations
+  A. Venn Diagram
+  B. Equality and Difference
+  C. Union and Intersection
+  D. Complement
+  E. Algebra of Sets
+  F. De Morgan's Laws
+  G. Duality Principle
+IV.  Probability introduced through Sets and Relative Frequency
+  A. Experiments and Sample Spaces
+  B. Discrete and Continuous Sample Spaces
+  C. Events
+  D. Probability Definition and Axioms
+  E. Mathematical Model of Experiments
+  F. Probability as a Relative Frequency
+V. Joint and Conditional Probability
+  A. Joint Probability
+  B. Conditional Probability
+  C. Total Probabilty
+  D. Bayes' Theorem
+VI.  Independent Events
+  A. Two Events
+  B. Multiple Events
+  C. Properties of Independent Events
+VII. Combined Experiments
+  A. Combined Sample Space
+  B. Events on the Combined Space
+  C. Probabilities
+  D. Permutations
+  E. Combinations
+VIII. Bernoulli Trials

@@ -7,6 +7,6 @@ NOTES:
 REFERENCES:
 1. Boslaugh, Sarah. "2 Probability." In _Statistics In a Nutshell, 2nd ed_. Sebastopol: OReilly, 2013.
 2. Freedman, David, Robert Pisani, and Roger Purves. "Part IV. Probability." In _Statistics, 4th ed_. New York: W. W. Norton & Company, Inc., 2007.
-3. Peebles, Peyton Z. Jr. 2001. Probability, _Random Variables, and Random Signal Principles_. 4th ed. New York: McGraw-Hill Inc.
+3. Peebles, Peyton Z. Jr. "Chapter 1 Probability." In _Probability, Random Variables, and Random Signal Principles_. 4th ed. New York: McGraw-Hill Inc. 2001.
 4. Spiegel, M. R., & Stephens, L. J. "Chapter 6 Elementary Probability Theory" _Schaum’s Outline of Statistics, 6th ed_. McGraw-Hill Education, 2017.
 
