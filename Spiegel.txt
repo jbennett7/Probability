@@ -1,0 +1,18 @@
+REFERENCE:
+Spiegel, M. R., & Stephens, L. J. "Chapter 6 Elementary Probability Theory" _Schaum’s Outline of Statistics, 6th ed_. McGraw-Hill Education, 2017.
+
+GENERAL:
+pages: 139 - 226
+
+OUTLINE:
+I.   Elementary Probability Theory (p. 139 - 171)
+  A. Definitions of Probability (p. 139 - 140)
+    1.  Classic Definition (p. 139)
+      i.   The probability of an occurrence of an event (called its success) $p = Pr\{E\} = \frac{h}{n}$; where $h$ is the number of ways the event can occur and $n$ is the total possible equally likely ways.
+      ii.  The probability of nonoccurrence of the event (called its failure) is denoted $q = Pr\{not E\} = \frac{n-h}{n} = 1 - \frac{h}{n} = 1 - p = 1 - Pr\{E\}$.
+      iii. Thus $p + q = 1$, or $Pr\{E\} + Pr\{not E\} = 1$. The event "not E" is sometimes deonted by $\hat{E}$ or $~E$.
+    2. Relative-Frequency Definition (p. 140)
+      i.   The estimated probability, or empirical probability, of an event is taken to be the relative frequency of occurrence of the event when the number of observations is very large.
+      ii.  The probability itself is the limit of the relative frequency as the number of observations increases indefinitely.
+  B. Conditional Probability: Independent and dependent events
+    1.
